@@ -1,0 +1,27 @@
+@import './utils/variables';
+@import './base/common';
+@import './base/base';
+@import './utils/resets';
+@import './utils/mixins';
+@import './utils/hidden';
+@import './components/mixin';
+@import './utils/backdrop';
+@import './components/slick';
+@import './components/section';
+@import './layouts/container';
+
+@import './components/header';
+@import './components/btn-up';
+@import './components/mobile_menu';
+@import './components/hero-section';
+@import './components/products-section';
+@import './components/about-section';
+@import './components/advantages-section';
+@import './components/gallery-section';
+@import './components/customer-reviews-section';
+@import './components/contacts-section';
+@import './components/modal-map';
+@import './components/modal-franchise';
+@import './components/footer-section';
+@import './components/modal';
+@import './components/about-modal';

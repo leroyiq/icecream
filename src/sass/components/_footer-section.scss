@@ -1,0 +1,211 @@
+.footer-container {
+    @media(max-width: 768px) {
+        margin-bottom: 40px;
+    }
+
+    @media(min-width: 768px) {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    @media(min-width:1200px) {
+        margin-bottom: 60px;
+        align-items: flex-end;
+    }
+}
+
+.footer {
+    background-color: var(--backgroung-color);
+    @media(min-width:1200px) {
+        padding-top: 60px;
+    }
+
+    &__title {
+        width: 234px;
+        margin-bottom: 40px;
+
+        @media(min-width: 768px) {
+            width: 340px;
+        }
+
+        @media(min-width:1200px) {
+            display: contents;
+            margin-bottom: 0
+        }
+    }
+}
+
+    .address-footer {
+        display: flex;
+        font-style: unset;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 1.7;
+
+        @media(min-width: 768px) {
+            font-size: 14px;
+        }
+
+        @media(min-width: 1200px) {
+            font-size: 16px;
+            line-height: 1.875;
+        }
+
+        &__linc {
+            margin-left: 5px;
+            color: var(--accent-text-color);
+            
+            &:hover,
+            &:focus,
+            :active {
+            color: var(--alternative-text-color);
+        }
+        }
+    }
+
+
+    .duplicate-title {
+        display: flex;
+        text-transform: uppercase;
+        color: var(--title-accent-color);
+        font-family: Titan One;
+        font-size: 18px;
+        line-height: 1.14;
+        flex-direction: column;
+
+        @media(min-width:768px) {
+            letter-spacing: 0.04em;
+            font-size: 26px;
+        }
+
+        @media(min-width:1200px) {
+            font-size: 30px;
+            line-height: 1.1;
+        }
+
+        &--accent {
+            color: var(--accent-text-color);
+            letter-spacing: 0.04em;
+            margin-top: 16px;
+            font-size: 34px;
+            line-height: 1.14;
+
+            @media(min-width:768px) {
+                font-size: 48px;
+                margin-top: 12px;
+                letter-spacing: 0.06em;
+            }
+
+            @media(min-width:1200px) {
+                margin-top: 16px;
+                font-size: 58px;
+            }
+
+        }
+    }
+
+
+
+    .social {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-end;
+
+
+
+        &__list {
+            display: flex;
+            justify-content: end;
+            margin-bottom: 40px;
+        }
+
+        &__item {
+
+            margin-right: 28px;
+            width: 32px;
+            height: 32px;
+
+
+            &:last-child {
+                margin-right: 0;
+            }
+
+            
+
+            @media(min-width: 768px) {
+                width: 34px;
+                height: 34px;
+                margin-right: 30px;
+            }
+        }
+
+        &__linc {
+            border-radius: 50%;
+            background-color: var(--sosials-inactive-color);
+            
+            display: flex;
+            height: 32px;
+            align-items: center;
+            &:hover,
+                &:focus,
+                &:active {
+                    background-color: var(--accent-text-color);
+                }
+
+
+
+            @media(min-width: 768px) {
+                     height: 34px;
+                }
+            
+        }
+
+        &__icon {
+            margin: 0 auto;
+            fill: var(--dominant-text-color)
+        }
+    }
+
+
+.cet-section {
+    border-top: 1px solid var(--quotes-color);
+    padding-top: 16px;
+
+    @media(min-width: 768px) {
+
+            padding-top: 8px;
+            padding-bottom: 8px;
+
+        }
+    
+        @media(min-width: 1200px) {
+            padding-top: 7px;
+            padding-bottom: 4px;
+        }
+
+    &__inner {
+        display: flex;
+        letter-spacing: .02em;
+        color: var(--alternative-text-color);
+        text-align: center;
+        margin-bottom: 3px;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 1.5;
+        flex-direction: column;
+
+        @media(min-width: 768px) {
+            display: block;
+            margin-top: 8px;
+            margin-bottom: 8px;
+            line-height: 1.85;
+        }
+
+        @media(min-width: 1200px) {
+            margin-top: 7px;
+            margin-bottom: 4px;
+        }
+    }
+}
